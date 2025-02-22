@@ -1,11 +1,11 @@
-import { Button } from "@/components/button";
-import { IconButton } from "@/components/icon-button";
-import { InputIcon, InputRoot, InputField } from "@/components/input";
-import { CopyIcon, ArrowRight, User2Icon } from "lucide-react";
+import { Button } from '@/components/button'
+import { IconButton } from '@/components/icon-button'
+import { InputField, InputIcon, InputRoot } from '@/components/input'
+import { ArrowRight, CopyIcon, User2Icon } from 'lucide-react'
 
 export default function Home() {
   return (
-    <main className="p-4 h-screen space-y-4">
+    <main className='p-4 h-screen space-y-4'>
       <Button>
         Click me
         <ArrowRight />
@@ -17,8 +17,8 @@ export default function Home() {
         <InputIcon>
           <User2Icon />
         </InputIcon>
-        <InputField placeholder="Enter your email" />
+        <InputField placeholder='Informe seu email' />
       </InputRoot>
     </main>
-  );
+  )
 }
